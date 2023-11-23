@@ -25,6 +25,7 @@ services:
     environment:
       POST_ISUCONDITION_TARGET_BASE_URL: https://isucondition-1.t.isucon.dev
       MYSQL_HOST: db
+      ISUCONDITION_DEBUG: 1
 
   frontend:
     image: node:14.17.0
