@@ -13,6 +13,7 @@ services:
       - "3306:3306"
     volumes:
       - db_data:/var/lib/mysql
+      - ./webapp/sql:/sql
   go:
     image: golang:1.16
     restart: always
