@@ -1,2 +1,3 @@
 /sql/1_InitData.sql
 ec256-public.pem
+/frontend/node_modules
